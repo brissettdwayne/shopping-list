@@ -1,0 +1,44 @@
+body {
+	font-family: Helvetica;
+}
+.head {
+	text-align: center;
+}
+.mid {
+	text-align: center;
+}
+.mid > h2 {
+	text-decoration: underline;
+}
+input, button {
+	border-radius: 5px;
+	font-size: 17px;
+}
+li {
+	list-style: none;
+	padding: 7px;
+	margin: auto;
+	text-align: center;
+	border: 1px solid;
+	border-radius: 5px;
+	max-width: 30em;
+	}
+ul {
+	text-align: center;
+	padding: 0;
+	
+}
+.check {
+	text-decoration: line-through;
+	color: #029100;
+}
+.add {
+	background-color: green;
+	font-size: 11px;
+	margin-right: 15px;
+}
+.delete {
+	background-color: red;
+	font-size: 11px;
+	margin-left: 15px;
+}
