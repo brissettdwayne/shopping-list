@@ -5,7 +5,7 @@ $(document).ready(function () {
 		$('input#text-box').val("");
 
 } else {
-	$('ul').append('<li class="not-done"><button class="add">Add</button>' + $("input#text-box").val() + '<button class="delete">Delete</button>' + '</li>')
+	$('ul').append('<li class="not-done"><button class="add">Check</button>' + $("input#text-box").val() + '<button class="delete">Remove</button>' + '</li>')
 	$('input#text-box').val("");
 	$('#enter-info').hide();
 };
@@ -13,5 +13,8 @@ $(document).ready(function () {
 	$('ul').on('click', '.add', function() {
 		$(this).closest('li').toggleClass('check not-done');
 		$(this).remove();
+	});
+	$('ul').on('click', '.delete', function() {
+		$(this).closest('li').remove();
 	});
 });
