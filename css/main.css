@@ -30,7 +30,7 @@ ul {
 }
 .check {
 	text-decoration: line-through;
-	color: #029100;
+	color: #E8840C;
 }
 .add {
 	background-color: green;
@@ -48,3 +48,4 @@ ul {
 	color: red;
 	display: none;
 }
+
