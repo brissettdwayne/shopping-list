@@ -36,9 +36,15 @@ ul {
 	background-color: green;
 	font-size: 11px;
 	margin-right: 15px;
+	color: black;
 }
 .delete {
 	background-color: red;
 	font-size: 11px;
 	margin-left: 15px;
+	color: black;
+}
+#enter-info {
+	color: red;
+	display: none;
 }
